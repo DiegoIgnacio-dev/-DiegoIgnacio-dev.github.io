@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  
+  <!--Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&display=swap" rel="stylesheet"> 
+    
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <script src="js/jquery-3.5.1.js"></script>
+  <script src="js/bootstrap4.6.1.js"></script>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/wave.css">
+  <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | [Blogr]</title>
+</head>
+<body>
+  
+  <header>
+    <!--first container nav-->
+    <div class="container" id="container-one">
+      <div class="container container-vector">
+        <div class="row ">
+          <div class="col-12">
+            <!--Elementos trasparentes para aprovechar recursos graficos-->
+            <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+              <a class="navbar-brand text-white" href="index.html">Diego_Ignacio</a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar"><img src="images/icon-hamburger.svg"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Inicio<span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#motivacion">Motivacion</a>
+                  </li>
+                  <li class="nav-item">
+                    <abbr title="En desarrollo ;)"><a class="nav-link" href="#">Curriculum</a></abbr>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Codigo
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <a class="dropdown-item" href="https://github.com/DiegoIgnacio-dev/Javascript_Notes">Javascript</a>
+                      <a class="dropdown-item" href="DesafiosFront/interactive-rating-component-main/index.html">Desafio #1:Elemento Interactivo</a>
+                      <a class="dropdown-item" href="DesafiosFront/AnimeHub/index.html">Desafio #2: AnimeHub</a>
+                      <a class="dropdown-item" href="DesafiosFront/calculadora/index.html">Desafio #2: Calculadora</a>
+                      <a class="dropdown-item" href="#">Proximamente ;)</a>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+            <div class="text-title">
+              <h1>Bienvenido A Mi Portafolio</h1>
+              <p>Gracias por Visitar mi Perfil y espero que el contenido sea de tu agrado</p>
+            </div>
+            
+              <div>
+                <button type="button" class="btn btn_me "><a href="whoIAm.html" id="link-who">Quien Soy</a></button>
+                <!--<button type="button" class="btn btn_work ">Mi Trabajo</button>-->
+              </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!--Container-INTRO-->
+  <div class="container">
+    <div class="row">
+    
+        <div class="col-6 intro-text">
+          <div class="text-container">
+            <h3>Mi Trabajo</h3>
+            <p>Este sitio sera la puerta para dar a conocer mis diferentes trabajos como desarrollador, asi como muestras de mi codigo
+              el cual personalmente uso a modo de apoyo para mis tareas del dia a dia y he querido compartirlas con su cometarios y errores ;) 
+              ya que la practica hace al maestro
+            </p>
+            <h3>Tomando desafios</h3>
+            <p>Actualmente trabajo para una empresa en Chile dedicada a prestar servicios de desarrollo para sistemas de laboratorios 
+              por lo debo serguir directrices y metodologias de desarrollo ya establesidas, por lo que he decidido tomar desafios de
+              de diferentes plataformas entre ellas <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a> Con el cual 
+              dia a dia pongo a prueba mis habilidades como desarrollador Front-End
+            </p>
+          </div>
+        </div>
+        <div class="col-6 intro-img">
+          <div class="img-container">
+            <img src="images/illustration-editor-mobile.svg">
+          </div>  
+        </div>
+      
+    </div>
+  </div>
+  <!--Container three Phone-->
+  <div class="container">
+    <div class="container-color wave-container">
+  
+            <div class="row">
+                <div class="col-4" id="container-phone">
+                  <img src="images/illustration-phones.svg" class="phone">
+                </div>
+                <div class="col-8" id="text-phone">
+                  <h3>Ser Responsive</h3>
+                  <p>Busco Adaptarme a diferentes desafios que me plantean, sin tomar en cuenta la tecnologia.
+                    A diario debo trabajar con Sql, Visual Basic , Javascript y he buscado la forma de aprender 
+                    de cada uno ellos con gusto, y en mi tiempo libre indago aun mas sobre ellos y sus pares
+                  </p>
+                </div>
+              
+            </div>
+          
+        
+    </div>
+  </div>
+  <!--Container five Notebook-->
+  <div class="container">
+    <div class="row">
+    <a name="motivacion"></a>
+        <div class="col-6 intro-text">
+          <div class="text-container">
+            <h3>Motivación</h3>
+            <p>
+              Para muchos tal vez es un sueño tener un trabajo como desarrollador y vivir de lo que estudiaste.<br>
+              Parte de ese sueño para mi se ha cumplido , pero mi mayor meta es lograr independizarme 
+              y construir mis propios sistemas y que estos lleven mi nombre, y para ello se require mucho esfuerzo 
+              y dedicacion, es por eso que me he sentido motivado a construir cosas,por iniciativa, para mi, esto es 
+              mi propio Gym donde poner en practica mis habilidades, equivocarme y aprender
+            </p>
+            <h3>Armando mi Stack</h3>
+            <p>En la actualidad busco mejorar mi stack de desarrollo; Usando Javascript para la construccion de sistemas,
+              el manejo de datos tanto del lado del cliente como del servidor asi como tambien por el lado de escritorio
+              con C#, .Net Core y de esa manera abarcar un mayor numero de posibilidades 
+            </p>
+           
+          </div>
+        </div>
+        <div class="col-6 intro-img">
+          <div class="img-container">
+            <img id="img-desk" src="images/illustration-laptop-desktop.svg">
+          </div>  
+        </div>
+      
+    </div>
+  </div>
+  <!--Container five footer mantener orden semantico-->
+  <footer>
+    <div class="container footer">
+      <div class="row">
+      
+          <div class="col-4 column-footer-one">
+            <h4>Volver a</h4>
+              <a href="http://">Inicio
+                <i class="fa fa-star" aria-hidden="true"></i>
+    
+              </a>
+              <!--<a href="http://">Portafolio
+                <i class="fa fa-briefcase" aria-hidden="true"></i>
+    
+              </a>-->
+              <br>
+              <a href="https://github.com/DiegoIgnacio-dev/Javascript_Notes">Codigo
+                <i class="fa fa-code" aria-hidden="true"></i>
+              </a>
+              <br>
+              <abbr title="En Desarrollo:)">
+              <a href="http://">Curriculum
+                <i class="fa fa-coffee" aria-hidden="true"></i>
+              </a>
+              </abbr>
+          </div>
+    
+          <div class="col-4 column-footer-one">
+            <h4>Contacto</h4>
+    
+            <a href="https://www.facebook.com/diego.avimaq">Facebook
+              <i class="fa fa-facebook-official" aria-hidden="true"></i>  
+            </a>
+            <br> 
+            <a href="https://www.instagram.com/diego._.jsdev/">Instagram
+              <i class="fa fa-instagram" aria-hidden="true"></i>
+            </a>
+            <br>
+            <a href="https://twitter.com/DiegoJsCoder">Twitter
+              <i class="fa fa-twitter-square" aria-hidden="true"></i>
+            </a>
+            <br>
+            <a href="https://t.me/DiegoIgnacioJs">Telegram
+              <i class="fa fa-telegram" aria-hidden="true"></i>
+            </a>
+          </div>
+    
+          <div class="col-4 column-footer-one">
+            <h4>Recomendado</h4>
+              <a href="https://www.freecodecamp.org/">FreeCodeCamp
+                <i class="fa fa-free-code-camp" aria-hidden="true"></i>
+              </a>
+              <br>
+              <a href="https://fontawesome.com/v4/">Font Awesome
+                <i class="fa fa-font-awesome" aria-hidden="true"></i>
+              </a>
+              <br>
+              <a href="https://jsfiddle.net/">Jsfiddle
+                <i class="fa fa-jsfiddle" aria-hidden="true"></i>
+              </a>
+              
+          </div>
+    
+      </div>
+    </div>
+  </footer>
+
+
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+</html>

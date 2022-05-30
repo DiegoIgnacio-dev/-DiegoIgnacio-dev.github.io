@@ -1,0 +1,32 @@
+.wave-container {  
+  height: 55vh;
+  background-color: #2D2E40;
+  position: relative;
+  border-radius:0px 100px 0px 100px;
+}
+
+.wave-container::before {   
+  content: "";
+  width: 100%;
+  height: 300px;
+  position: absolute;
+  bottom: -0.3%;
+  left: 0;
+  background-size: auto;
+  background-repeat: repeat no-repeat;
+  background-position: 12147vw bottom;
+  background-image: url("data:image/svg+xml;utf8,<svg viewBox='0 0 1200 113' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M0 0C22.4434 -1 28.9842 2 55 20C94.1849 46 121.997 48 158.5 49C198.5 51 200 37 240 44C280 50 320 75 360 75C400 75 440 50 480 46C520 42 560 59 600 71C640 84 680 92 720 97C760 101 800 101 840 88C880 75 920 50 960 52C1000 54 1040 84 1080 80C1120 75 1127.5 50 1147.5 31C1171.48 10 1185.65 0 1200 0V113H1180C1160 113 1120 113 1080 113C1040 113 1000 113 960 113C920 113 880 113 840 113C800 113 760 113 720 113C680 113 640 113 600 113C560 113 520 113 480 113C440 113 400 113 360 113C320 113 280 113 240 113C200 113 160 113 120 113C80 113 40 113 20 113H0V0.0103865Z' fill='%23ff7f48'/></svg>");
+  border-radius:0px 100px 0px 100px
+}
+
+@media(max-width:850px) {
+  .wave-container::before {    
+    height: 200px
+  }  
+}
+
+@media(min-width:360px) {
+  .wave-container::before {    
+    height: 200px
+  }  
+}

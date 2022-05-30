@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    margin: 0 auto;
+    text-align: center;
+    background-color: #141519;
+}
+form{
+    text-align: center;
+    margin: 0 auto;
+}
+#contenedor{
+    width: 230px;
+}
+.icon{
+    background-color: #393f47;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50px;
+    text-align: center;
+    margin-top:20px;
+    margin-left: 10px;
+}
+.tx-title{
+    font-family: 'Overpass', sans-serif;
+    color:white;
+    font-size: 25px;
+    margin-top:20px;
+    font-weight: 600;
+}
+.tx-description{
+    font-family: 'Overpass', sans-serif;
+    color:#7C8798;
+    font-size: 15px;
+    margin-top:20px;
+}
+.box{
+    text-align: left;
+    min-width:230px;
+    max-width: 360px;
+    min-height: 374px;
+    margin: 100px auto;
+    background-color:#1E252F;
+    border-radius: 25px;
+    padding: 20px;
+    
+}
+.btn-secondary{
+    border-radius: 50%;
+    margin-left: 10px;
+    font-size: 1.3rem;
+    width: 3rem;
+    height: 3rem;
+    background-color:#242C36;
+    border-style: none;
+    color: #7C8798;
+}
+.btn-secondary:not(:disabled):not(.disabled).active,
+.btn-secondary:not(:disabled):not(.disabled):active,
+.show > .btn-secondary.dropdown-toggle
+.active{
+    background-color: #FC7613;
+}
+.btn-group-toggle{
+text-align: center;
+margin-top: 2rem;
+margin-bottom: 2rem;
+}
+
+.btn-enviar{
+    font-family: 'Overpass', sans-serif;
+    width: 100%;
+    height: 2.5rem;
+    border-radius: 50px;
+    border-style: none;
+    margin-bottom: 15px;
+    background-color: #FC7613;
+    color: white;
+    font-size: 1.4rem;
+}
+
+.btn-enviar:hover{
+    background-color: white;
+    color: #FB7413;
+}
+
+/*Jquery elements styles*/
+
+#card{
+    text-align: center;
+}
+#img-thank{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#txt-out{
+    font-family: 'Overpass', sans-serif;
+    background-color:#5A6268;
+    color:#FB7413;
+    font-weight:600;
+    height:2.3rem;
+    width:230px;
+    margin:0 auto;
+    border-radius:50px;
+    line-height: 35px;
+}
+.title{
+    color: white;
+    font-family: 'Overpass', sans-serif;
+    margin-top: 10px;
+}
+
+.parr{
+    color:#636c72;
+    font-family: 'Overpass', sans-serif;
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}

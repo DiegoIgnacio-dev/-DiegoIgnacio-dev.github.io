@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <!--Styles-->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <!--Scrips-->
+  <script src="js/jquery-3.5.1.js"></script>
+  <script src="js/bootstrap4.6.1.js"></script>
+  <script src="js/app.js"></script>
+  <!--Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet"> 
+  
+  <title>Componente Interactivo</title>
+
+</head>
+
+<body class="container">
+
+  <div class="row">
+    <div class="col-2 p-0"></div>
+    <!--Dividir columnas y elegir en cual pocicionaremos nuestro elemento
+    de esta manera tenemos un centrado rapido del contenido a trabajar-->
+    <div class="col-8 p-0" id="contenedor">
+
+      <div class="box" id="BOX">
+        <div id="card">
+            <div  class="icon">
+              <img id="ICON" src="images/icon-star.svg">
+            </div>
+            <div class="tx-title"> Como lo Hicimos?</div>
+            <div class="tx-description">
+              <p>Háganos saber cómo nos fue con su solicitud de soporte. 
+              Todos los comentarios son apreciados para ayudarnos a
+              mejorar nuestra oferta! </p>
+            </div>
+            <form>
+                <div class="btn-group-toggle" data-toggle="buttons">
+                  <label class="btn btn-secondary">
+                    <input type="radio" name="options" id="option1" autocomplete="off" value="1"> 1
+                  </label>
+
+                  <label class="btn btn-secondary">
+                    <input type="radio" name="options" id="option2" autocomplete="off" value="2"> 2
+                  </label>
+
+                  <label class="btn btn-secondary">
+                    <input type="radio" name="options" id="option3" autocomplete="off" value="3"> 3
+                  </label>
+
+                  <label class="btn btn-secondary">
+                    <input type="radio" name="options" id="option4" autocomplete="off" value="4"> 4
+                  </label>
+
+                  <label class="btn btn-secondary">
+                    <input type="radio" name="options" id="option5" autocomplete="off" value="5"> 5
+                  </label>
+                </div>
+                <!-- <label class="btn btn-secondary">
+                    <input type="radio" name="options" id="option1" autocomplete="off" value="1"> 1
+                  </label> Me permite usar botones a modo de Radio Buttons o checkbox ,de esta manera 
+                  al pulsarlos los botones quedaran marcados y podremos capturar su valor-->
+                <button class="btn-enviar" id="btn_sub" type="">Enviar</button>
+            </form> 
+          </div>      
+      </div>
+
+    </div>
+
+    <div class="col-2 p-0"></div>
+  </div>
+
+  <!-- Rating state start -->
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Diego Ignacio Dev</a>.
+  </div>
+</body>
+
+</html>
