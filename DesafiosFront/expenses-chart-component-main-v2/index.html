@@ -8,13 +8,54 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet"> 
   
   <title>Frontend Mentor | Expenses chart component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
 </head>
 <body>
-  <style>
+
+  <main id="content">
+    <!--Title box-->
+    <div id="title">
+      <div id="balance">
+        <h1>My balance</h1>
+        <p>$921.48</p>
+      </div>
+
+      <img src="images/logo.svg" width="70px">
+    </div>
+    <div id="graf">
+      <h2 id="subTi">Spending-Last 7 Days</h2>
+      <canvas id="myChart" width="100px" height="100px"></canvas>
+      <div id="foot-box">
+        <div id="total">
+          <p class="txt">Total this month</p>
+          <h3>$478.33</h3>
+        </div>
+        <div>
+          <p id="porcent">+2.4%</p>
+          <p class="txt">from last month</p>
+        </div>
+      </div>
+    </div>
+  </main>
+<!--
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+-->
+  <script src="chart.js"></script>
+</body>
+</html>
+<!--Style-->
+<style>
   *{
     font-family:'DM Sans', sans-serif;
     font-size: 18px;
@@ -24,14 +65,12 @@
   body{
     background-color: hsl(27, 66%, 92%);
   }
-    img-logo{
-    width:70px;
-    }
   #content{
     background-color: hsl(27, 66%, 92%);
     display: flex;
     flex-direction: column;
   }
+
   #title{
     background-color: hsl(10, 79%, 65%);
     width: 355px;
@@ -90,38 +129,4 @@
     font-size: 12px;
     font-weight: 700;
   } 
-  </style>
-  <main id="content">
-    <!--Title box-->
-    <div id="title">
-      <div id="balance">
-        <h1>My balance</h1>
-        <p>$921.48</p>
-      </div>
-
-      <img alt="icon-img" id="img-logo" src="images/logo.svg">
-    </div>
-    <div id="graf">
-      <h2 id="subTi">Spending-Last 7 Days</h2>
-      <canvas id="myChart" width="100px" height="100px"></canvas>
-      <div id="foot-box">
-        <div id="total">
-          <p class="txt">Total this month</p>
-          <h3>$478.33</h3>
-        </div>
-        <div>
-          <p id="porcent">+2.4%</p>
-          <p class="txt">from last month</p>
-        </div>
-      </div>
-    </div>
-  </main>
-<!--
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
--->
-  <script src="chart.js"></script>
-</body>
-</html>
+</style>
