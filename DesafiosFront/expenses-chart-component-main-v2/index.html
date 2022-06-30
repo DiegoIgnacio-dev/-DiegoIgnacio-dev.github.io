@@ -14,7 +14,83 @@
   <title>Frontend Mentor | Expenses chart component</title>
 </head>
 <body>
-
+  <style>
+  *{
+    font-family:'DM Sans', sans-serif;
+    font-size: 18px;
+    margin:0;
+    padding:0;
+  }
+  body{
+    background-color: hsl(27, 66%, 92%);
+  }
+    img{
+    width:70px;
+    }
+  #content{
+    background-color: hsl(27, 66%, 92%);
+    display: flex;
+    flex-direction: column;
+  }
+  #title{
+    background-color: hsl(10, 79%, 65%);
+    width: 355px;
+    max-width:320px;
+    margin: 0 auto;
+    border-radius: 15px;
+    padding: 10px;
+    display: flex;
+    
+  }
+  #balance{
+    text-align: left;
+    margin-right:auto;
+    color: white;
+  }
+  #balance h1{
+    font-size: 10px;
+  }
+  #balance p{
+    font-size: 25px;
+    font-weight: 700;
+    
+  }
+  #title img{
+    width: 40px;
+  }
+  
+  #graf{
+    background-color: hsl(33, 100%, 98%);
+    max-width:355px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius:15px;
+    margin-top: 15px;
+  }
+  #myChart{
+      max-width: 300px;
+      max-height: 200px;
+      margin: 0 auto;
+  }
+  #foot-box{
+    border-top:solid 1px rgb(156, 156, 156) ;
+    margin: 0 auto;
+    display: flex;
+  }
+  #total{
+    margin-top: 10px;
+    margin-right:auto ;
+  }
+  .txt{
+    font-size: 12px;
+    color: rgb(100, 100, 100);
+  }
+  #porcent{
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: 700;
+  } 
+  </style>
   <main id="content">
     <!--Title box-->
     <div id="title">
@@ -23,7 +99,7 @@
         <p>$921.48</p>
       </div>
 
-      <img src="images/logo.svg" width="70px" alt="icon-img">
+      <img alt="icon-img" src="images/logo.svg">
     </div>
     <div id="graf">
       <h2 id="subTi">Spending-Last 7 Days</h2>
