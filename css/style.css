@@ -83,10 +83,18 @@ nav{
     margin: 0 auto;
     min-width: 360px;
 }
-#img-desk{
+#img-desk,
+.img-container{
     min-width: 360px;
-    max-width: 600px;
-    margin:0 auto ;
+    max-width: 400px;
+    margin:30px auto;
+}
+
+#img-container{
+    min-width: 350px;
+    max-width: 300px;
+    margin:50px auto;
+    
 }
 .text-container{
     margin: 0 auto;
@@ -103,16 +111,20 @@ nav{
     padding: 0;
 }*/
 .phone{
-   width: 410px;
-   margin-top:-230px;
+   width: 310px;
+   margin-top:-200px;
+   margin-left: 30px;
+
 }
 #text-phone{
     align-self: center;
     width: 100%;
     margin: 0 auto;
+    margin-top:25px;
     min-width: 350px;
     max-width: 450px;
     color: #fff;
+    font-size: 1.2rem;
 }
 .container-color{
     margin-top: 200px;
@@ -172,7 +184,7 @@ nav{
 #me{
     min-width:340px;
     width: 300px;
-    border-radius: 35px;
+    border-radius: 50%;
 }
 
 #container-who{
@@ -205,4 +217,17 @@ nav{
 #link-iris{
     color: #3f4164;
     text-decoration:underline;
+}
+
+#title-con{
+    margin-top: 40px;
+}
+
+.work-experience{
+    margin-top: 10px;
+    box-shadow: 0px 1px 2px #FF7849;
+    border-radius: 20px;
+}
+.work-experience ul li{
+    list-style:none;
 }
