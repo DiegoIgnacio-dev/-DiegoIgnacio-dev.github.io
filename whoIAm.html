@@ -1,138 +1,286 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Quien Soy</title>
     <script src="js/jquery-3.5.1.js"></script>
     <script src="js/bootstrap4.6.1.js"></script>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/wave.css">
-    <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
-</head>
-<body>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/wave.css" />
+    <link
+      rel="stylesheet"
+      href="css/font-awesome-4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
     <header>
-          <!--first container nav-->
-    <div class="container" id="container-who">
+      <!--first container nav-->
+      <div class="container" id="container-who">
         <div class="container container-vector-who">
-          <div class="row ">
+          <div class="row">
             <div class="col-12">
               <!--Elementos trasparentes para aprovechar recursos graficos-->
               <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
-                <a class="navbar-brand text-white" href="index.html">Diego_Ignacio</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar"><img src="images/icon-hamburger.svg"></span>
+                <a class="navbar-brand text-white" href="index.html"
+                  >Diego_Ignacio</a
+                >
+                <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#navbarNavDropdown"
+                  aria-controls="navbarNavDropdown"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <span class="navbar"
+                    ><img src="images/icon-hamburger.svg"
+                  /></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                   <ul class="navbar-nav">
                     <li class="nav-item active">
-                      <a class="nav-link" href="index.html">Inicio<span class="sr-only">(current)</span></a>
+                      <a class="nav-link" href="index.html"
+                        >Inicio<span class="sr-only">(current)</span></a
+                      >
                     </li>
 
                     <li class="nav-item">
-                     <abbr title="En desarrollo :)"><a class="nav-link" href="#">Curriculum</a></abbr>
+                      <abbr title="En desarrollo :)"
+                        ><a class="nav-link" href="whoIAm.html">Curriculum</a></abbr
+                      >
                     </li>
                     <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      <a
+                        class="nav-link dropdown-toggle"
+                        href="#"
+                        id="navbarDropdownMenuLink"
+                        data-toggle="dropdown"
+                        aria-haspopup="true"
+                        aria-expanded="false"
+                      >
                         Codigo
                       </a>
-                      <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="https://github.com/DiegoIgnacio-dev/Javascript_Notes">Javascript</a>
-                        <a class="dropdown-item" href="DesafiosFront/interactive-rating-component-main/index.html">Desafio #1:Elemento Interactivo</a>
-                        <a class="dropdown-item" href="DesafiosFront/AnimeHub/index.html">Desafio #2: AnimeHub</a>
-                        <a class="dropdown-item" href="DesafiosFront/calculadora/index.html">Desafio #2: Calculadora</a>
+                      <div
+                        class="dropdown-menu"
+                        aria-labelledby="navbarDropdownMenuLink"
+                      >
+                        <a
+                          class="dropdown-item"
+                          href="https://github.com/DiegoIgnacio-dev/Javascript_Notes"
+                          >Javascript</a
+                        >
+                        <a
+                          class="dropdown-item"
+                          href="DesafiosFront/interactive-rating-component-main/index.html"
+                          >Desafio #1:Elemento Interactivo</a
+                        >
+                        <a
+                          class="dropdown-item"
+                          href="DesafiosFront/AnimeHub/index.html"
+                          >Desafio #2: AnimeHub</a
+                        >
+                        <a
+                          class="dropdown-item"
+                          href="DesafiosFront/calculadora/index.html"
+                          >Desafio #2: Calculadora</a
+                        >
                         <a class="dropdown-item" href="#">Proximamente ;)</a>
                       </div>
                     </li>
                   </ul>
                 </div>
               </nav>
-                
             </div>
             <div class="container">
-                <div class="row">
-                    <div class="text-title who-tex col-8">
-                        <h1>Who I Am</h1>
-                        <p>(Quien soy)</p>
-                        <p>Hola! Gracias por pasarte por aquí, Me llamo Diego y soy de Chile,
-                            Soy un apacionado por la tecnologia y el Desarrollo a todo nivel ya sea Web, Movil, Escritorio e IOT(Internet de las cosas).<br> Actualmente Trabajo para una empresa nacional dedicada a prestar servicios de desarrollo para laboratorios clinicos y hospitales llamada <a id="link-iris" href="http://www.irislab.cl/irislab/">IrisLab</a>.<br>
-                            Pero en mi tiempo libre trabajo al 100% con tecnologias web.
-                            HTML,CSS,Javascript,Bootstrap,Asp.net entre otros por gusto propio</p>
-                    </div>
-                    <div class="col-4 img-me">
-                        <img id="me" src="images/me.jpg">
-                    </div>
+              <div class="row">
+                <div class="text-title who-tex col-8">
+                  <h1>Who I Am</h1>
+                  <p>(Quien soy)</p>
+                  <p>
+                    Hola! Gracias por pasarte por aquí, Me llamo Diego y vivo en Osorno
+                    Décima Region de Chile, Soy un apacionado por la tecnología y el Desarrollo a
+                    todo nivel ya sea Web, Movil, Escritorio e IOT(Internet de
+                    las cosas).<br />
+                    Hace poco estuve trabajando para una empresa nacional
+                    dedicada a prestar servicios de desarrollo para laboratorios
+                    clinicos y hospitales llamada
+                    <a id="link-iris" href="http://www.irislab.cl/irislab/"
+                      >IrisLab</a
+                    >.<br />
+                    Y el ultimo Proyecto en el que contribuí fue para la empresa
+                    MasBlue usando Wordpress<i
+                      class="fa fa-wordpress"
+                      aria-hidden="true"
+                    ></i>
+                    y Elementor en Su sitio
+                    <a href="https://www.masblue.cl//">MasBlue.cl</a>
+                    <br />
+                    Ahora en mi tiempo libre practico al 100% con tecnologias
+                    web. HTML,CSS,Javascript,Bootstrap,Asp.net entre otros por
+                    gusto propio
+                  </p>
                 </div>
+                <div class="col-4 img-me">
+                  <img id="me" src="images/me.jpg" />
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </header>
-    <footer>
-    <div class="container footer-who">
+    <div class="container">
+      <h3 id="title-con">Experiecia Laboral</h3>
+      <div class="row">
+        <div class="col-6 intro-text">
+          
+          <div class="text-container">
+            
+            <div class="work-experience">
+              <h4>IrisLab</h4>
+              <p>
+                <i>Año 2022</i>
+                <br>
+                Prestando servicios como Técnico en programación y analista de
+                sistemas en la empresa IrisLab Osorno , desempeñando tareas de
+                desarrollo de sistemas usando el modelo 4 Capas con el lenguaje
+                Visual Basic y ASP.net para la gestión de información médica,
+                laboratorios y hospitales , así como la gestión de bases de datos.
+              </p>
+              <h5>Tecnologias Usadas</h5>
+              <ul>
+                <li>HTML CSS Bootstrap </li>
+                <li>Javascript Jquery Ajax</li>
+                <li>Visual Basic .NET</li>
+                <li>MSSQL Server</li>
+                <li>Mirth Connect</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 intro-text">
+          <div class="work-experience">
+            <h4>MásBlue</h4>
+            <p>
+              <i>Año 2022</i>
+              <br>
+              Prestando servicios como Técnico en programación y analista de
+              sistemas en la empresa MasBlue Iquique , desempeñando tareas 
+              como desarrollador web en la creacion de un sitio de presentacion
+              corporativo usando Wordpress,Mysql,Php y Elementor asi como tambien
+              el desarrollo de aplicaciones en Python usando Django y PostgreSQL 
+              en la gestion de Base de Datos
+
+            </p>
+            <h5>Tecnologias Usadas</h5>
+            <ul>
+              <li>HTML CSS</li>
+              <li>Wordpress</li>
+              <li>Elementor</li>
+              <li>Python Django</li>
+              <li>PostgreSQL</li>
+            </ul>
+          </div>
+          <!--
+          <div class="img-container-box">
+            <img
+              id="img-container"
+              src="images/illustration-editor-mobile.svg"
+            />
+          </div>
+        -->
+        </div>
+      </div>
+    </div>
+    <div class="container">
       <div class="row">
       
+          <div class="col-12 intro-text">
+            <div class="text-container">
+              <h3>Estudios</h3>
+              <h5>Instituto Profesional AIEP</h5>
+              <p>TECNICO EN PROGRAMACION Y ANALISIS DE SISTEMAS</p>
+              <img src="images/LOGOS-350x350-aiep.png">
+              
+            </div>
+          </div>
+          
+        
+      </div>
+    </div>
+    <footer>
+      <div class="container footer-who">
+        <div class="row">
           <div class="col-4 column-footer-one">
             <h4>Volver a</h4>
-              <a href="http://">Inicio
-                <i class="fa fa-star" aria-hidden="true"></i>
-    
-              </a>
-              <br>
-              <a href="index.html">Portafolio
-                <i class="fa fa-briefcase" aria-hidden="true"></i>
-    
-              </a>
-              <br>
-              <a href="https://github.com/DiegoIgnacio-dev/Javascript_Notes">Codigo
-                <i class="fa fa-code" aria-hidden="true"></i>
-              </a>
-              <br>
-              <a href="http://">Curriculum
-                <i class="fa fa-coffee" aria-hidden="true"></i>
-              </a>
+            <a href="index.html"
+              >Inicio
+              <i class="fa fa-star" aria-hidden="true"></i>
+            </a>
+            <br />
+            <a href="index.html"
+              >Portafolio
+              <i class="fa fa-briefcase" aria-hidden="true"></i>
+            </a>
+            <br />
+            <a href="https://github.com/DiegoIgnacio-dev/Javascript_Notes"
+              >Codigo
+              <i class="fa fa-code" aria-hidden="true"></i>
+            </a>
+            <br />
+            <a href="whoIAm.html"
+              >Curriculum
+              <i class="fa fa-coffee" aria-hidden="true"></i>
+            </a>
           </div>
-    
+
           <div class="col-4 column-footer-one">
             <h4>Contacto</h4>
-    
-            <a href="https://www.facebook.com/diego.avimaq">Facebook
-              <i class="fa fa-facebook-official" aria-hidden="true"></i>  
+
+            <a href="https://www.facebook.com/diego.avimaq"
+              >Facebook
+              <i class="fa fa-facebook-official" aria-hidden="true"></i>
             </a>
-            <br> 
-            <a href="https://www.instagram.com/diego._.jsdev/">Instagram
+            <br />
+            <a href="https://www.instagram.com/diego._.jsdev/"
+              >Instagram
               <i class="fa fa-instagram" aria-hidden="true"></i>
             </a>
-            <br>
-            <a href="https://twitter.com/DiegoJsCoder">Twitter
+            <br />
+            <a href="https://twitter.com/DiegoJsCoder"
+              >Twitter
               <i class="fa fa-twitter-square" aria-hidden="true"></i>
             </a>
-            <br>
-            <a href="https://t.me/DiegoIgnacioJs">Telegram
+            <br />
+            <a href="https://t.me/DiegoIgnacioJs"
+              >Telegram
               <i class="fa fa-telegram" aria-hidden="true"></i>
             </a>
           </div>
-    
+
           <div class="col-4 column-footer-one">
             <h4>Recomendado</h4>
-              <a href="https://www.freecodecamp.org/">FreeCodeCamp
-                <i class="fa fa-free-code-camp" aria-hidden="true"></i>
-              </a>
-              <br>
-              <a href="https://fontawesome.com/v4/">Font Awesome
-                <i class="fa fa-font-awesome" aria-hidden="true"></i>
-              </a>
-              <br>
-              <a href="https://jsfiddle.net/">Jsfiddle
-                <i class="fa fa-jsfiddle" aria-hidden="true"></i>
-              </a>
-              
+            <a href="https://www.freecodecamp.org/"
+              >FreeCodeCamp
+              <i class="fa fa-free-code-camp" aria-hidden="true"></i>
+            </a>
+            <br />
+            <a href="https://fontawesome.com/v4/"
+              >Font Awesome
+              <i class="fa fa-font-awesome" aria-hidden="true"></i>
+            </a>
+            <br />
+            <a href="https://jsfiddle.net/"
+              >Jsfiddle
+              <i class="fa fa-jsfiddle" aria-hidden="true"></i>
+            </a>
           </div>
-    
+        </div>
       </div>
-    </div>
-  </footer>
-</body>
+    </footer>
+  </body>
 </html>
